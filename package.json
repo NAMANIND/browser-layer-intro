@@ -1,0 +1,13 @@
+{
+  "name": "browser-layer-bench",
+  "private": true,
+  "description": "Benchmarks for browser-layer, a terminal browser for AI agents",
+  "license": "Apache-2.0",
+  "scripts": {
+    "bench": "node bench/agents/run.mjs",
+    "charts": "node bench/charts.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}
