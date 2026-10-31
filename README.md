@@ -44,6 +44,16 @@ browser-layer stop
 `browser-layer help` lists every command. `browser-layer login <url>` opens a normal browser window on
 the agent's profile: you sign in yourself, close it, and the agent stays signed in.
 
+## Agent skill
+
+[`skills/browser-layer`](skills/browser-layer/SKILL.md) teaches an agent the workflow: the map, acting by
+ref or name, records, and what to do when a site blocks it. It follows the
+[Agent Skills](https://agentskills.io) format, so it works in Claude Code, Codex, Cursor and others:
+
+```bash
+npx skills add NAMANIND/browser-layer
+```
+
 ## Benchmarks
 
 Full tables and method: [bench/RESULTS.md](bench/RESULTS.md). Charts and side-by-side transcripts:
